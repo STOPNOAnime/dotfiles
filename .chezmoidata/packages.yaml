@@ -18,6 +18,7 @@ packages:
     - 'dfu-util'
     - 'gperf'
     - 'ninja-build'
+    - 'rbw'
 
   flatpak:
     - 'com.discordapp.Discord'

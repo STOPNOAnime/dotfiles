@@ -1,2 +1,7 @@
 dconf.ini
 README.md
+
+{{ if not (env "CHEZMOI_SECRETS") }}
+.ssh/id_ed25519
+.ssh/id_ed25519.pub
+{{ end }}
