@@ -1,5 +1,9 @@
 [user]
 	email = birecki@proton.me
 	name = Michał Birecki
+
 [init]
 	defaultBranch = main
+
+[url "git@github.com:"]
+	insteadOf = https://github.com/
