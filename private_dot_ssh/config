@@ -1,0 +1,7 @@
+Host mimuw
+  HostName students.mimuw.edu.pl
+  User mb458546
+
+Host oracle
+  HostName 141.144.233.243
+  User opc

@@ -1,0 +1,5 @@
+[user]
+	email = birecki@proton.me
+	name = Michał Birecki
+[init]
+	defaultBranch = main
