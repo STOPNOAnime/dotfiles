@@ -1,0 +1,23 @@
+packages:
+  dnf:
+    - '@libreoffice'
+    - 'gimp'
+    - 'firefox'
+    - '@c-development'
+    - 'clang'
+    - 'rust'
+    - 'cargo'
+    - 'python3'
+    - 'python3-pip'
+    - 'git'
+    - 'cmake' 
+    - 'stow'
+    - 'unzip'
+    - 'wget'
+    - 'curl'
+    - 'dfu-util'
+    - 'gperf'
+    - 'ninja-build'
+
+  flatpak:
+    - 'com.discordapp.Discord'

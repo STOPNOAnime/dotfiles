@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo dnf upgrade -y
+sudo dnf install -y {{ range .packages.dnf }} {{ . | quote }} {{ end }}
