@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# wallpaper.jpg hash: {{ include ".scriptdata/wallpaper.jpg" | sha256sum }}
+{{ $wallpaper_uri := print "file://" (joinPath .chezmoi.sourceDir ".scriptdata" "wallpaper.jpg") }}
+gsettings set org.gnome.desktop.background picture-uri {{ $wallpaper_uri }}
+gsettings set org.gnome.desktop.background picture-uri-dark {{ $wallpaper_uri }}
+gsettings set org.gnome.desktop.screensaver picture-uri {{ $wallpaper_uri }}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# user.icon hash: {{ include ".scriptdata/user.icon" | sha256sum }}
+sudo cp {{ joinPath .chezmoi.sourceDir ".scriptdata" "user.icon" | quote }} /var/lib/AccountsService/icons/{{ .chezmoi.username }}

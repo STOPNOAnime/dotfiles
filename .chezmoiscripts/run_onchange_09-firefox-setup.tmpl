@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo mkdir -p /etc/firefox/policies/
+
+# firefox-policies.json hash: {{ include ".scriptdata/firefox-policies.json" | sha256sum }}
+sudo cp {{ joinPath .chezmoi.sourceDir ".scriptdata" "firefox-policies.json" | quote }} /etc/firefox/policies/policies.json
+
+# remove old profiles
+rm -rf ~/.mozilla/firefox/
