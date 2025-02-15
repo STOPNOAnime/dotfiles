@@ -1,5 +1,6 @@
 dconf.ini
 firefox-policies.json
+wallpaper.jpg
 README.md
 
 {{ if not (env "CHEZMOI_SECRETS") }}
