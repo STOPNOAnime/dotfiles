@@ -2,9 +2,12 @@
 Repo for my dotfiles managed using chezmoi.
 
 # Installation
-```
-curl -fsLS get.chezmoi.io/lb | CHEZMOI_SECRETS=1 sh -s -- init --apply stopnoanime
-```
+1. Install Fedora, make sure to enable third party repositories.
+2. Run chezmoi: `curl -fsLS get.chezmoi.io/lb | CHEZMOI_SECRETS=1 sh -s -- init --apply stopnoanime`
+3. Login to Firefox, Bitwarden, Discord and VS Code
+
+# Post installation tasks
+
 
 # Secrets
 I store secrets on Bitwarden and acess them using `rbw`.
