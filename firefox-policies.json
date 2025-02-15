@@ -1,0 +1,14 @@
+{
+    "policies": {
+        "Homepage": {
+            "URL": "about:home",
+            "Locked": true
+        },
+        "DisablePocket": true,
+        "NoDefaultBookmarks": true,
+        "DisableProfileImport": true,
+        "Preferences": {
+            "datareporting.policy.dataSubmissionPolicyBypassNotification": true
+        }
+    }
+}

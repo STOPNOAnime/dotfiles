@@ -1,4 +1,5 @@
 dconf.ini
+firefox-policies.json
 README.md
 
 {{ if not (env "CHEZMOI_SECRETS") }}
