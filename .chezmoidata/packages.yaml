@@ -19,6 +19,8 @@ packages:
     - 'gperf'
     - 'ninja-build'
     - 'rbw'
+    - 'dconf-editor'
+    - 'cascadia-mono-nf-fonts'
 
   flatpak:
     - 'com.discordapp.Discord'
