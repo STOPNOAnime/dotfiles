@@ -21,6 +21,8 @@ packages:
     - 'rbw'
     - 'dconf-editor'
     - 'cascadia-mono-nf-fonts'
+    - 'gnome-extensions-app'
+    - 'gnome-shell-extension-appindicator'
 
   flatpak:
     - 'com.discordapp.Discord'
